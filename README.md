@@ -117,6 +117,8 @@ cargo install dsync
 * `--no-crud`: (optional) Do not generate the CRUD functions for generated models
 * `--create-str`: (optional) Set which string type to use for `Create*` structs (possible are `string`, `str`, `cow`)
 * `--update-str`: (optional) Set which string type to use for `Update*` structs (possible are `string`, `str`, `cow`)
+* `--create-bytes`: (optional) Set which bytes type to use for `Create*` structs (possible are `vec`, `slice`, `cow`)
+* `--update-bytes`: (optional) Set which bytes type to use for `Update*` structs (possible are `vec`, `slice`, `cow`)
 * `--single-model-file`: (optional) Generate only a single model file, instead of a directory with `mod.rs` and `generated.rs`
 * `--readonly-prefix`: (optional, repeatable) A prefix to treat a table matching this as readonly *2
 * `--readonly-suffix`: (optional, repeatable) A suffix to treat a table matching this as readonly *2

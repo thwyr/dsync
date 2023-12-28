@@ -9,8 +9,10 @@
 - add subcommand to generate shell completions
 - function `generate_files` now takes in `&Path`s instead of `PathBuf`s
 - remove `to_singular` name generations
-- add option `--create-str` to set `Create*` structs string & byte types
-- add option `--update-str` to set `Update*` structs string & byte type
+- add option `--create-str` to set `Create*` structs string type
+- add option `--update-str` to set `Update*` structs string type
+- add option `--create-bytes` to set `Create*` structs byte type
+- add option `--update-bytes` to set `Update*` structs byte type
 - add option `--single-model-file` to only generate a single file instead of a directory with `mod.rs` and `generated.rs`
 - add option `--readonly-prefix` and `--readonly-suffix` to treat a matching name as a readonly struct
 - add option `--no-crud` to not generate any `impl` blocks
